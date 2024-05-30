@@ -136,10 +136,6 @@ body {
   text-align: center;
 }
 
-.header__image {
-  width: 100%;
-}
-
 .heading__primary {
   font-family: var(--secondary-font-family);
   font-weight: 500;
@@ -170,7 +166,7 @@ body {
 .section-features {
   position: relative;
   padding: 24rem 0 12rem;
-  margin-top: -17rem;
+  margin-top: -15rem;
 }
 
 .section-features.bg::after {
@@ -315,5 +311,9 @@ body {
 @media (max-width: 23rem) {
   .heading__primary {
     font-size: 2.5rem;
+  }
+
+  .header__image {
+    width: 100%;
   }
 }
